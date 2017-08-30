@@ -1,0 +1,110 @@
+.show-mob{
+	display: none;
+}
+
+@media (min-width: 320px)and (max-width: 768px){
+
+p{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+ul{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#header{
+display: flex;
+width: 100%;
+padding:0px;
+margin:0; 
+height: 150px;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+
+#header a{
+display: block;
+width: 100%;
+height: auto;
+text-align: center;
+margin-right:0%;
+margin-left:0%;
+}
+
+.header-nav{
+	width: 100%;
+	justify-content: space-betwen;
+}
+
+#header h1{
+	margin-left: 0;
+}
+
+
+h1{
+margin-left: 0px;
+font-family:'Quicksand', sans-serif;
+font-weight: 300;
+}
+
+.contenedor{
+	padding: 0;
+}
+
+.row{
+	display: block;
+	overflow: visible;
+	height: 100%;
+}
+
+.col-2{
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.col-3{
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.img-portafolio-full{
+	height: 50vh;
+}
+
+.img-portafolio-half{
+	height: 50%;
+}
+
+.image-portafolio-responsive{
+	height: 100vh;
+}
+
+.img-thumb{
+	width:80%;
+	margin: 10px auto;
+	display: inherit;
+}
+
+.contacto{
+	width: 98%;
+}
+
+.contacto input{
+	width: 80%;
+}
+
+.contacto textarea{
+	width:80%;
+}
+
+.show-full{
+	display: none;
+}
+
+
+}
